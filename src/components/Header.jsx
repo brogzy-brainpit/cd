@@ -72,7 +72,7 @@ const logo={
 
  {/* <Magnetic> */}
    <div onClick={()=>{setIsMenuOpen(!isMenuOpen)}} className='absolute cursor-pointer -translate-y-1/2 top-[50%] -translate-x-1/2 right-2 bg-white w-10 h-10 rounded-full flex items-center justify-center'>
-    <div className={`burger ${isMenuOpen?'activeBurger ':''}`}>
+    <div className={`w-full flex items-center justify-center flex-col burger ${isMenuOpen?'activeBurger ':''}`}>
 
     </div>
   </div>
