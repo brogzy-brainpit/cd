@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Preloader2() {
   // [0.76, 0, 0.24, 1]
   const ease=[0.9, 0, 0.1, 1];
-  const text= 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sed eos maiores facilis provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sed eos maiores facilis provident?'
+  const text= 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sed eos maiores facilis provident? Lorem ipsum dolor.'
   const slideUpParent = {
     initial: {},
     enter: {
@@ -115,14 +115,14 @@ const imgs=["/images/service01.png","/images/service02.png","/images/service03.p
   initial="initial"
   exit="exit"
   animate="enter"
-  className="flex flex-wrap text-balance max-w-[40em] justify-center absolute bottom-[5em] translate-y-[80%]"
+  className="mx-auto flex flex-wrap text-balance max-w-[94%] lg:max-w-[38em] justify-center absolute bottom-[5em] translate-y-[80%]"
 >
   {
     text.split(" ").map((word, index) => (
       <span key={index} className="overflow-hidden mr-2 inline-block">
         <motion.span
           variants={slideUp}
-          className="inline-block text-white text-para font-body"
+          className="inline-block text-white text-para leading-[.9] font-body"
         >
           {word}
         </motion.span>

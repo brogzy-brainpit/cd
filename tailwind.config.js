@@ -33,7 +33,7 @@ module.exports = {
         '2xl': 'clamp(1.5rem, 1.8vw + 0.6rem, 2rem)',
         '3xl': 'clamp(2rem, 2.4vw + 0.6rem, 2.5rem)',
         'button': 'clamp(14px, 3.5vw, 18px)',
-        'para': 'clamp(1em, 1vw + 0.2em, 1.2em)',
+        'para': 'clamp(1.2em, 1vw + 0.2em, 1.3em)',
         'heading1': 'clamp(3em, 5vw + 0.5em, 5.5em)',
         'heading2': 'clamp(1.8em, 1vw + 0.5em, 2em)',
         'heading3': 'clamp(2em, 2.5vw + 0.5em, 3em)',
@@ -57,7 +57,7 @@ module.exports = {
         'heading': 'clamp(60px, 10vw, 90px)',
         'footer': 'clamp(38px, 9vw, 80px)',
         'heading2': 'clamp(48px, 8vw, 84px)',
-        'para': 'clamp(18px, 1vw, 24px)',
+        'para': 'clamp(20px, 1vw, 24px)',
       },
       colors:{
         'brand-text':"#1c2218",
