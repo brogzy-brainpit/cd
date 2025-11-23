@@ -136,7 +136,7 @@ console.log(letters)
           display: inline-block;
           transform: translateY(200%);
           opacity: 0;
-          // will-change: transform, opacity;
+           will-change: transform, opacity;
         }
       `}</style>
       <div
@@ -150,7 +150,8 @@ console.log(letters)
     
               <span className={` ${i === 4 ? "mr-[2rem]" : ""} overflow-hidden flex bgred-600 uppercas`}>
              <span
-              className="letter ont-bold "
+              className="letter lg:text-[6rem] text-[3rem] uppercas leading-[1.2] bgred-600 "
+              
 
               >
                    <motion.span

@@ -36,12 +36,13 @@ const logo={
 <div layout className='bg-red-60 h-ful self-start pt-2' >
   <Magnetic>
 
- <motion.h2 layout='preserve-aspect'
+ <motion.h2 
   className="font-bold flex  "
  
 >
  <motion.span 
-              className="text-[2rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              className="bgblue-600 text-[2rem] uppercas leading-[1.1 font-custom2 text-white font-bold "
+
                layoutId="d"
   transition={{
     duration:1,
@@ -54,7 +55,8 @@ const logo={
               </motion.span>
 
  <motion.span 
-              className="text-[2rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              className="bgblue-600 text-[2rem] uppercas leading-[1.1 font-custom2 text-white font-bold "
+
                layoutId="a-4"
   transition={{
     duration:1,
