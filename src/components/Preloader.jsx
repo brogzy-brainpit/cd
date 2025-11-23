@@ -159,7 +159,7 @@ console.log(letters)
               // initial={{y:-150}} 
               // exit={{y:-1}} 
               
-              className="lg:text-[6rem] text-[3.8rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              className="lg:text-[6rem] text-[3.8em] uppercas leading-[1.2] font-custom2 text-white font-bold "
                layoutId={id}
   transition={{
     duration:.2,
