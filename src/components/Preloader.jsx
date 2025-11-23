@@ -142,7 +142,7 @@ console.log(letters)
       `}</style>
       <div
         ref={scope}
-        className=" -translate-y-1/2 top-[68%] absolute  flex flex-wrap header"
+        className=" -translate-y-1/2 top-[60%] lg:top-[68%] absolute  flex flex-wrap header"
       >
         
           <span  className=" word-wrapper mr-2 flex  bgslate-600">
@@ -159,7 +159,7 @@ console.log(letters)
               // initial={{y:-150}} 
               // exit={{y:-1}} 
               
-              className="lg:text-[6rem] text-[4rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              className="lg:text-[6rem] text-[3.8rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
                layoutId={id}
   transition={{
     duration:.2,

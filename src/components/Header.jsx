@@ -38,7 +38,7 @@ const logo={
 
  <h2 className="flex" >
  <motion.span 
-              className="text-[2rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
+              className="text-[2.4rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
                layoutId="d"
   transition={{
     duration:1,
@@ -52,7 +52,7 @@ const logo={
 
 
  <motion.span 
-              className="text-[2rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
+              className="text-[2.4rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
                layoutId="a-4"
   transition={{
     duration:1,
