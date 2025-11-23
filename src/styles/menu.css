@@ -4,13 +4,13 @@
     position: relative;
     content:'';
     width:54%;
-    /* width: 20px; */
+    width: 20px;
     height:2px;
     border-radius: 20em;
     transition: all 0.1s;
 }
 .burger::before{
-    background-color: red;
+    background-color: blue;
     top: -3px;
 }
 .burger::after{

@@ -36,13 +36,9 @@ const logo={
 <div layout className='bg-red-60 h-ful self-start pt-2' >
   <Magnetic>
 
- <motion.h2 
-  className="font-bold flex  "
- 
->
+ <h2 className="flex" >
  <motion.span 
-              className="bgblue-600 text-[2rem] uppercas leading-[1.1 font-custom2 text-white font-bold "
-
+              className="text-[2rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
                layoutId="d"
   transition={{
     duration:1,
@@ -54,9 +50,9 @@ const logo={
                 c
               </motion.span>
 
- <motion.span 
-              className="bgblue-600 text-[2rem] uppercas leading-[1.1 font-custom2 text-white font-bold "
 
+ <motion.span 
+              className="text-[2rem] uppercas leading-[1.6] font-custom2 text-white font-bold "
                layoutId="a-4"
   transition={{
     duration:1,
@@ -67,14 +63,14 @@ const logo={
   }}>
                 d
               </motion.span>
-</motion.h2>
+</h2>
   </Magnetic>
 
   </div>
 
  {/* <Magnetic> */}
    <div onClick={()=>{setIsMenuOpen(!isMenuOpen)}} className='absolute cursor-pointer -translate-y-1/2 top-[50%] -translate-x-1/2 right-2 bg-white w-10 h-10 rounded-full flex items-center justify-center'>
-    <div className={`w-full flex items-center justify-center flex-col burger ${isMenuOpen?'activeBurger ':''}`}>
+    <div className={`burger w-full flex flex-col items-center justify-center ${isMenuOpen?'activeBurger ':''}`}>
 
     </div>
   </div>

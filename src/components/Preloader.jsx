@@ -51,7 +51,7 @@ console.log(letters)
     );
 
     // pause after intro
-    await new Promise((r) => setTimeout(r, 5800));
+    await new Promise((r) => setTimeout(r, 4400));
 
     // 3) fly out middle letters (run them in parallel, awaited)
     const middle = letters.slice(1, -1);
@@ -88,6 +88,7 @@ console.log(letters)
       animate(first, { x: targetX1 }, { duration: 0.8, ease,delay:.4 }),
       animate(last, { x: targetX2 }, { duration: 0.8, ease ,delay:.4}),
     ]);
+   
     // await animate(scope.current, { y: -320, scale: .5 }, { duration: 0.8, ease });
   };
 
@@ -150,14 +151,15 @@ console.log(letters)
     
               <span className={` ${i === 4 ? "mr-[2rem]" : ""} overflow-hidden flex bgred-600 uppercas`}>
              <span
-              className="letter lg:text-[6rem] text-[3rem] uppercas leading-[1.2] bgred-600 "
+              className="letter lg:text-[6rem] text-[3rem] uppercas leading[1.2] bgred-600 "
               
 
               >
                    <motion.span
               // initial={{y:-150}} 
               // exit={{y:-1}} 
-              className="bgblue-600  lg:text-[6rem] text-[3rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              
+              className="lg:text-[6rem] text-[3rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
                layoutId={id}
   transition={{
     duration:.2,
