@@ -151,7 +151,7 @@ console.log(letters)
     
               <span className={` ${i === 4 ? "mr-[2rem]" : ""} overflow-hidden flex bgred-600 uppercas`}>
              <span
-              className="letter lg:text-[6rem] text-[4.5rem] uppercas leading[1.2] bgred-600 "
+              className="letter uppercas leading[1.2] bgred-600 "
               
 
               >
@@ -159,7 +159,7 @@ console.log(letters)
               // initial={{y:-150}} 
               // exit={{y:-1}} 
               
-              className="lg:text-[6rem] text-[3rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
+              className="lg:text-[6rem] text-[4rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
                layoutId={id}
   transition={{
     duration:.2,
