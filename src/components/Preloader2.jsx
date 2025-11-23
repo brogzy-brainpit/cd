@@ -97,7 +97,7 @@ const imgs=["/images/service01.png","/images/service02.png","/images/service03.p
   initial="initial"
   exit="exit"
   animate="enter"
-      className=" absolute top-[45%] left-[50%] -translate-y-1/2 -translate-x-1/2 bg-red600 w-[20em] h-[20em]">
+      className=" absolute top-[45%] left-[50%] -translate-y-1/2 -translate-x-1/2 bg-red600 w-[24em] h-[25em]">
        {imgs.map((url)=>{
         return (
            <motion.div variants={Img} className='absolute w-full h-full'>
