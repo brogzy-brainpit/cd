@@ -115,7 +115,7 @@ const imgs=["/images/service01.png","/images/service02.png","/images/service03.p
   initial="initial"
   exit="exit"
   animate="enter"
-  className="mx-auto flex flex-wrap text-balance max-w-[94%] lg:max-w-[38em] justify-center absolute bottom-[5em] translate-y-[80%]"
+  className="mx-auto flex flex-wrap text-balance max-w-[94%] lg:max-w-[38em] justify-center absolute bottom-[1em] lg:bottom-[1em] -translate-y-[50%]"
 >
   {
     text.split(" ").map((word, index) => (
