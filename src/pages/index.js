@@ -22,7 +22,7 @@ function PageContent() {
       setIsLoading2(false)
     }, 1000);
 
-    }, 9400);
+    }, 7400);
     return ()=>clearTimeout(timer)
   },[])
   return (

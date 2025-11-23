@@ -149,10 +149,14 @@ console.log(letters)
   return (
     
               <span className={` ${i === 4 ? "mr-[2rem]" : ""} overflow-hidden flex bgred-600 uppercas`}>
-              <motion.span
+             <span
+              className="letter ont-bold "
+
+              >
+                   <motion.span
               // initial={{y:-150}} 
               // exit={{y:-1}} 
-              className="letter lg:text-[6rem] text-[3rem] uppercas leading-[1.2] bgblue-600 font-custom2 text-white font-bold "
+              className="bgblue-600  lg:text-[6rem] text-[3rem] uppercas leading-[1.2] font-custom2 text-white font-bold "
                layoutId={id}
   transition={{
     duration:.2,
@@ -163,6 +167,9 @@ console.log(letters)
   }}>
                 {letter}
               </motion.span>
+             </span>
+           
+              
               </span>
   )
 })}
