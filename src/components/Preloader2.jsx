@@ -89,9 +89,13 @@ function Preloader2() {
       }
     },
   }
+  const [out,setOut]=React.useState(false)
 const imgs=["/images/service01.png","/images/service02.png","/images/service03.png","/images/service04.png","/images/service05.png"]
   return (
     <motion.div variants={wrapper} initial='initial' animate='enter' exit='exit' className=" fixed  top-0 left-0 w-full h-full bg-neutral-800 z-[9998] flex flex-col items-center justify-center">
+     <motion.div initial={{scaleX:0,transformOrigin:'right'}} animate={{scaleX:out?0:1,transformOrigin:out?'right':'left'}} onAnimationComplete={()=>{setOut(true)}} transition={{duration:3,delay:.2,ease:'easeOut'}} className='bg-white h-[.5em] w-full absolute top-0 left-0'>
+
+     </motion.div>
       <motion.div 
       variants={ParentImg}
   initial="initial"

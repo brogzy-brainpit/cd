@@ -69,11 +69,13 @@ const logo={
   </div>
 
  {/* <Magnetic> */}
-   <div onClick={()=>{setIsMenuOpen(!isMenuOpen)}} className='absolute cursor-pointer -translate-y-1/2 top-[55%] -translate-x-1/2 right-2 bg-white w-[4em] h-[4em] rounded-full flex items-center justify-center'>
+       
+   <motion.div initial={{scale:0}} exit={{scale:0}} animate={{scale:1}} transition={{duration:1.8,delay:.4,ease}}
+   onClick={()=>{setIsMenuOpen(!isMenuOpen)}} className='absolute cursor-pointer -translate-y-1/2 top-[25%] -translate-x-1/2 right-2 bg-white w-[4em] h-[4em] rounded-full flex items-center justify-center'>
     <div className={`burger w-full flex flex-col items-center justify-center ${isMenuOpen?'activeBurger ':''}`}>
 
     </div>
-  </div>
+  </motion.div>
  {/* </Magnetic> */}
   </div>
  
